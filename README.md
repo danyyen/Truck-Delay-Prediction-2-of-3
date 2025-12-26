@@ -60,31 +60,56 @@ This project leverages the AWS cloud platform to build the end-to-end machine le
 
 ## Folder Structure
 ```
-├─ Data
-│  ├─ Database_backup
-│  │  ├─ truck-eta-mysql.sql
-│  │  └─ truck-eta-postgres.sql
-│  ├─ data_description.pdf
-│  └─ Training_data
-│     ├─ city_weather.csv
-│     ├─ drivers_table.csv
-│     ├─ routes_table.csv
-│     ├─ routes_weather.csv
-│     ├─ traffic_table.csv
-│     ├─ trucks_table.csv
-│     └─ truck_schedule_table.csv
-├─ Deployment
-│  ├─ app.py
-│  ├─ app_config.yaml
-│  ├─ requirements.txt
-│  ├─ truck_data_encoder.pkl
-│  └─ truck_data_scaler.pkl
-├─ Notebooks
-│  ├─ Truck-Delay-Classification_Part_2.ipynb
-│  └─ Truck_Delay_Classification_Part_1.ipynb
-└─ References
-   └─ readme.md
-   |_ solution_methodology.pdf
+│   .gitignore
+│   README.md
+│
+├───data_sample
+│       city_weather_sample.csv
+│       data_description.pdf
+│       drivers_table_sample.csv
+│       routes_table_sample.csv
+│       routes_weather_sample.csv
+│       traffic_table_sample.csv
+│       trucks_table_sample.csv
+│       truck_schedule_table_sample.csv
+│
+├───Deployment
+│       app.py
+│       app_config.yaml
+│       requirements.txt
+│       truck_data_encoder.pkl
+│       truck_data_scaler.pkl
+│
+├───References
+│       readme.md
+│       solution_methodology.pdf
+│
+├───Results
+│       image 5.png
+│       image.png
+│       image10.png
+│       image2.png
+│       image3.png
+│       image4.png
+│       image6.png
+│       image7.png
+│       image8.png
+│       image9.png
+│       Screenshot 2.jpg
+│       Screenshot 2025-1109.jpg
+│       Screenshot 202724.jpg
+│       Screenshot 2807.jpg
+│       Screenshot 56.jpg
+│
+├───sql
+│       truck-eta-mysql.sql
+│       truck-eta-postgres.sql
+│
+└───src
+        rf_sweep_pipeline.py
+        Truck-Delay-Classification_Part_2 - pipeline.py
+        Truck-Delay-Classification_Part_2.ipynb
+        Truck_Delay_Classification_part_1.ipynb
 
 ```
 
