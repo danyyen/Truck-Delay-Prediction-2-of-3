@@ -1,5 +1,5 @@
 # Truck-Delay-Prediction-2-of-3
-# **Build End-to-End ML Pipeline for Truck Delay Classification Part 2**
+# **Build End-to-End ML Pipeline for Truck Delay Classification Part 2** # 
 
 
 The project addresses a critical challenge faced by the logistics industry. Delayed truck shipments not only result in increased operational costs but also impact customer satisfaction. Timely delivery of goods is essential to meet customer expectations and maintain the competitiveness of logistics companies.
@@ -11,7 +11,8 @@ By accurately predicting truck delays, logistics companies can:
 
 In the first phase of our three-part series, Truck Delay Prediction - Part 1, I laid the groundwork by utilizing PostgreSQL and MySQL in AWS RDS for data storage, setting up an AWS Sagemaker Notebook, performing data retrieval, conducting exploratory data analysis, and creating feature groups with Hopsworks. 
 
-In Part 2, I delve deeper into the machine-learning pipeline. Focusing on data retrieval from the feature store, train-validation-test split, one-hot encoding, scaling numerical features, and leveraging Weights and Biases for model experimentation, I will build our pipeline for model building with logistic regression, random forest, and XGBoost models. Further, I explored hyperparameter tuning with sweeps, discuss grid and random search, and, ultimately, the deployment of a Streamlit application on AWS. 
+### In this Part 2 *** 
+I went  deeper into the machine-learning pipeline. Focusing on data retrieval from the feature store, train-validation-test split, one-hot encoding, scaling numerical features, and leveraging Weights and Biases for model experimentation, I will build our pipeline for model building with logistic regression, random forest, and XGBoost models. Further, I explored hyperparameter tuning with sweeps, discuss grid and random search, and, ultimately, the deployment of a Streamlit application on AWS. 
 
 
 **Note:  AWS Usage Charges**
