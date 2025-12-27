@@ -23,6 +23,11 @@ This project leverages the AWS cloud platform to build the end-to-end machine le
 * Data Retrieval from Hopsworks:
     * Connecting Hopsworks with Python.
     * Retrieving data directly from the feature store.
+ 
+
+## Architecture
+<img width="766" height="517" alt="image" src="https://github.com/user-attachments/assets/1309be1c-aad8-46b5-abf8-34495523b422" />
+
 
 
 * Train-Validation-Test Split
